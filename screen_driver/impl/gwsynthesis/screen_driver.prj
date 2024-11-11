@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-55C" package="PBGA484" speed="8" partNumber="GW2A-LV55PG484C8/I7"/>
+    <FileList>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\MiniLED_driver.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\SPI7001_pack\SPI7001_gowin.vp" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\filter.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\get_pixel.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\gray.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\led_part\led_pll\7001_rpll.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\led_part\ramflag_1.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\LVDS71RX_1CLK8DATA.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\bit_align_ctl.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\gowin_rpll\LVDS_RX_rPLL.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\ip_gddr71tx.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_defines.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_top.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\word_align_ctl.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\gowin_rpll\LVDS_TX_rPLL.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\lvds_7to1_tx_defines.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\lvds_7to1_tx_top.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_video_top.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\screen_driver_top.v" type="verilog"/>
+        <File path="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\sram_top_pack\sram_top_gowin.vp" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\impl\gwsynthesis\screen_driver.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="screen_driver_top"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

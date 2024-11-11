@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="screen_driver_top" T_Register="1597(0)" T_Alu="609(0)" T_Lut="3891(0)" T_MULT18X18="1(0)" T_Bsram="4(0)" T_Ssram="460(0)">
+    <SubModule name="gw_gao_inst_0" Register="294" Alu="13" Lut="403" Bsram="1" T_Register="294(294)" T_Alu="13(13)" T_Lut="403(403)" T_Bsram="1(1)"/>
+    <SubModule name="lvds_video_top_inst" T_Register="697(0)" T_Alu="577(0)" T_Lut="2522(0)" T_MULT18X18="1(0)" T_Ssram="460(0)">
+        <SubModule name="LVDS_7to1_RX_Top_inst" Register="49" Alu="17" Lut="30" T_Register="57(49)" T_Alu="17(17)" T_Lut="45(30)">
+            <SubModule name="lvds_71_rx" Lut="1" T_Lut="1(1)">
+                <SubModule name="LVDS_RX_rPLL_inst"/>
+            </SubModule>
+            <SubModule name="wd_aln_ctl_inst" Register="8" Lut="14" T_Register="8(8)" T_Lut="14(14)"/>
+        </SubModule>
+        <SubModule name="LVDS_7to1_TX_Top_inst" Lut="1" T_Lut="1(1)">
+            <SubModule name="LVDS_TX_rPLL_inst"/>
+            <SubModule name="ip_gddr71tx_inst"/>
+        </SubModule>
+        <SubModule name="u_get_pixel" Register="34" Alu="32" Lut="59" T_Register="34(34)" T_Alu="32(32)" T_Lut="59(59)"/>
+        <SubModule name="u_gray" Register="518" Alu="479" Lut="1046" MULT18X18="1" T_Register="518(518)" T_Alu="479(479)" T_Lut="1046(1046)" T_MULT18X18="1(1)"/>
+        <SubModule name="u_filter" Register="88" Alu="49" Lut="1371" Ssram="460" T_Register="88(88)" T_Alu="49(49)" T_Lut="1371(1371)" T_Ssram="460(460)"/>
+    </SubModule>
+    <SubModule name="MiniLED_driver_inst" T_Register="566(0)" T_Alu="19(0)" T_Lut="731(0)" T_Bsram="3(0)">
+        <SubModule name="SPI7001_25M_1M_rPLL_inst"/>
+        <SubModule name="u1" Register="43" Alu="19" Lut="78" Bsram="1" T_Register="43(43)" T_Alu="19(19)" T_Lut="78(78)" T_Bsram="1(1)"/>
+        <SubModule name="u2" Register="216" Lut="192" Bsram="2" T_Register="216(216)" T_Lut="192(192)" T_Bsram="2(2)"/>
+        <SubModule name="u3" Register="307" Lut="461" T_Register="307(307)" T_Lut="461(461)"/>
+    </SubModule>
+    <SubModule name="bh" Register="40" Lut="235" T_Register="40(40)" T_Lut="235(235)"/>
+</Module>

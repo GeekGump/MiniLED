@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="screen_driver_top" T_Register="1277(0)" T_Alu="582(0)" T_Lut="3240(0)" T_Bsram="3(0)" T_Ssram="460(0)">
+    <SubModule name="lvds_video_top_inst" T_Register="711(0)" T_Alu="563(0)" T_Lut="2506(0)" T_Ssram="460(0)">
+        <SubModule name="LVDS_7to1_RX_Top_inst" Register="49" Alu="17" Lut="30" T_Register="57(49)" T_Alu="17(17)" T_Lut="45(30)">
+            <SubModule name="lvds_71_rx" Lut="1" T_Lut="1(1)">
+                <SubModule name="LVDS_RX_rPLL_inst"/>
+            </SubModule>
+            <SubModule name="wd_aln_ctl_inst" Register="8" Lut="14" T_Register="8(8)" T_Lut="14(14)"/>
+        </SubModule>
+        <SubModule name="LVDS_7to1_TX_Top_inst" Lut="1" T_Lut="1(1)">
+            <SubModule name="LVDS_TX_rPLL_inst"/>
+            <SubModule name="ip_gddr71tx_inst"/>
+        </SubModule>
+        <SubModule name="u_get_pixel" Register="34" Alu="32" Lut="53" T_Register="34(34)" T_Alu="32(32)" T_Lut="53(53)"/>
+        <SubModule name="u_gray" Register="532" Alu="465" Lut="972" T_Register="532(532)" T_Alu="465(465)" T_Lut="972(972)"/>
+        <SubModule name="u_filter" Register="88" Alu="49" Lut="1435" Ssram="460" T_Register="88(88)" T_Alu="49(49)" T_Lut="1435(1435)" T_Ssram="460(460)"/>
+    </SubModule>
+    <SubModule name="MiniLED_driver_inst" T_Register="566(0)" T_Alu="19(0)" T_Lut="734(0)" T_Bsram="3(0)">
+        <SubModule name="SPI7001_25M_1M_rPLL_inst"/>
+        <SubModule name="u1" Register="43" Alu="19" Lut="81" Bsram="1" T_Register="43(43)" T_Alu="19(19)" T_Lut="81(81)" T_Bsram="1(1)"/>
+        <SubModule name="u2" Register="216" Lut="192" Bsram="2" T_Register="216(216)" T_Lut="192(192)" T_Bsram="2(2)"/>
+        <SubModule name="u3" Register="307" Lut="461" T_Register="307(307)" T_Lut="461(461)"/>
+    </SubModule>
+</Module>

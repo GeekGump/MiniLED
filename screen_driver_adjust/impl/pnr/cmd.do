@@ -1,0 +1,16 @@
+-d E:\Code\FPGA\GW_project\screen_driver_filter_light\impl\gwsynthesis\screen_driver.vg
+-p GW2A-55C-PBGA484-8
+-pn GW2A-LV55PG484C8/I7
+-cst E:\Code\FPGA\GW_project\screen_driver_filter_light\src\screen_driver.cst
+-cfg E:\Code\FPGA\GW_project\screen_driver_filter_light\impl\pnr\device.cfg
+-gao_crc 1000000011000100
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
+-rtl_gao

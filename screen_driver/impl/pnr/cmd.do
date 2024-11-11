@@ -1,0 +1,14 @@
+-d C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\impl\gwsynthesis\screen_driver.vg
+-p GW2A-55C-PBGA484-8
+-pn GW2A-LV55PG484C8/I7
+-cst C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\screen_driver.cst
+-cfg C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

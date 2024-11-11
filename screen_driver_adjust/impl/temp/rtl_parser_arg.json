@@ -1,0 +1,97 @@
+{
+ "Device" : "GW2A-55C",
+ "Files" : [
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/MiniLED_driver.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/SPI7001_pack/SPI7001_gowin.vp",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/bh1750.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/filter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/get_pixel.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/gray.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/led_part/led_pll/7001_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/led_part/ramflag_1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_7to1_rx/LVDS71RX_1CLK8DATA.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_7to1_rx/bit_align_ctl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_7to1_rx/gowin_rpll/LVDS_RX_rPLL.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_7to1_rx/lvds_7to1_rx_defines.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_7to1_rx/lvds_7to1_rx_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_7to1_rx/word_align_ctl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_7to1_tx/gowin_rpll/LVDS_TX_rPLL.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_7to1_tx/ip_gddr71tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_7to1_tx/lvds_7to1_tx_defines.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_7to1_tx/lvds_7to1_tx_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/lvds_video_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/screen_driver_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GitHub/screen_driver_adjust/src/sram_top_pack/sram_top_gowin.vp",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+  "C:/Users/SHIVAAAA/Desktop/Gowin/screen_driver_filter/src/lvds_7to1_tx"
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/GitHub/screen_driver_adjust/impl/temp/rtl_parser.result",
+ "Top" : "screen_driver_top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

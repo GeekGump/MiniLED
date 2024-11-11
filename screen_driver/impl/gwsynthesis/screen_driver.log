@@ -1,0 +1,86 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\MiniLED_driver.v'
+Undeclared symbol 'scan1_wire', assumed default net type 'wire'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\MiniLED_driver.v":77)
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\SPI7001_pack\SPI7001_gowin.vp'
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\filter.v'
+Undeclared symbol 'get_data', assumed default net type 'wire'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\filter.v":70)
+Undeclared symbol 'compare', assumed default net type 'wire'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\filter.v":90)
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\get_pixel.v'
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\gray.v'
+Undeclared symbol 'group_column_update', assumed default net type 'wire'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\gray.v":202)
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\led_part\led_pll\7001_rpll.v'
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\led_part\ramflag_1.v'
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\LVDS71RX_1CLK8DATA.v'
+Analyzing included file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_defines.v'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\LVDS71RX_1CLK8DATA.v":2)
+Back to file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\LVDS71RX_1CLK8DATA.v'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\LVDS71RX_1CLK8DATA.v":2)
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\bit_align_ctl.v'
+Analyzing included file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_defines.v'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\bit_align_ctl.v":2)
+Back to file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\bit_align_ctl.v'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\bit_align_ctl.v":2)
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\gowin_rpll\LVDS_RX_rPLL.v'
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\ip_gddr71tx.v'
+Analyzing included file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\lvds_7to1_tx_defines.v'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\ip_gddr71tx.v":2)
+Back to file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\ip_gddr71tx.v'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\ip_gddr71tx.v":2)
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_defines.v'
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_top.v'
+Analyzing included file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_defines.v'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_top.v":22)
+Back to file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_top.v'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_top.v":22)
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\word_align_ctl.v'
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\gowin_rpll\LVDS_TX_rPLL.v'
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\lvds_7to1_tx_defines.v'
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\lvds_7to1_tx_top.v'
+Analyzing included file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\lvds_7to1_tx_defines.v'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\lvds_7to1_tx_top.v":25)
+Back to file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\lvds_7to1_tx_top.v'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\lvds_7to1_tx_top.v":25)
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_video_top.v'
+Undeclared symbol 'rx_sclk', assumed default net type 'wire'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_video_top.v":69)
+Undeclared symbol 'update', assumed default net type 'wire'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_video_top.v":118)
+Undeclared symbol 'process_end', assumed default net type 'wire'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_video_top.v":121)
+Undeclared symbol 'filter_end', assumed default net type 'wire'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_video_top.v":133)
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\screen_driver_top.v'
+Undeclared symbol 'light_refresh', assumed default net type 'wire'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\screen_driver_top.v":36)
+Analyzing Verilog file 'C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\sram_top_pack\sram_top_gowin.vp'
+Compiling module 'screen_driver_top'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\screen_driver_top.v":1)
+Compiling module 'lvds_video_top'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_video_top.v":22)
+Compiling module 'LVDS_7to1_RX_Top'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_top.v":24)
+Compiling module 'LVDS71RX_1CLK8DATA'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\LVDS71RX_1CLK8DATA.v":6)
+Compiling module 'LVDS_RX_rPLL'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\gowin_rpll\LVDS_RX_rPLL.v":9)
+Compiling module 'bit_align_ctl'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\bit_align_ctl.v":5)
+WARN  (EX2420) : Latch inferred for net 'next_state[3]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\bit_align_ctl.v":126)
+Compiling module 'word_align_ctl'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\word_align_ctl.v":1)
+Compiling module 'LVDS_7to1_TX_Top'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\lvds_7to1_tx_top.v":27)
+Compiling module 'LVDS_TX_rPLL'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_tx\gowin_rpll\LVDS_TX_rPLL.v":9)
+Compiling module 'ip_gddr71tx'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\ip_gddr71tx.v":4)
+Compiling module 'get_pixel'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\get_pixel.v":1)
+Compiling module 'gray'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\gray.v":1)
+Compiling module 'filter'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\filter.v":1)
+Extracting RAM for identifier 'gray_ram'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\filter.v":13)
+Compiling module 'MiniLED_driver'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\MiniLED_driver.v":1)
+Compiling module 'SPI7001_25M_1M_rPLL'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\led_part\led_pll\7001_rpll.v":10)
+Compiling module 'ramflag_1'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\led_part\ramflag_1.v":1)
+Extracting RAM for identifier 'light_ram'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\led_part\ramflag_1.v":21)
+Compiling module 'sram_top_gowin_top'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\sram_top_pack\sram_top_gowin.vp":7)
+Compiling module '**'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\sram_top_pack\sram_top_gowin.vp":1274)
+Compiling module 'SPI7001_gowin_top'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\SPI7001_pack\SPI7001_gowin.vp":7)
+Compiling module '**'("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\SPI7001_pack\SPI7001_gowin.vp":2398)
+NOTE  (EX0101) : Current top module is "screen_driver_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "bit_align_ctl" instantiated to "bit_aln_ctl_inst" is swept in optimizing("C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\src\lvds_7to1_rx\lvds_7to1_rx_top.v":482)
+[95%] Generate netlist file "C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\impl\gwsynthesis\screen_driver.vg" completed
+WARN  (CK3000) : Can't calculate clocks' relationship between: "lvds_video_top_inst/LVDS_7to1_RX_Top_inst/lvds_71_rx/Inst6_CLKDIVC/CLKOUT.default_gen_clk" and "MiniLED_driver_inst/SPI7001_25M_1M_rPLL_inst/led_rpll_inst/CLKOUT.default_gen_clk"
+[100%] Generate report file "C:\Users\SHIVAAAA\Desktop\Gowin\screen_driver\impl\gwsynthesis\screen_driver_syn.rpt.html" completed
+GowinSynthesis finish
